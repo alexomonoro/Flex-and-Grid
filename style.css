@@ -1,0 +1,164 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+justify-content: center;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 130%;
+    font-family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 80%;
+}
+
+.Primero {
+    background-color: hsl(31, 77%, 52%);
+    height: 60vh;
+    width: 20%;
+    border-radius: 9px 0px 0px 9px;
+}
+
+.segundo {
+    background-color: hsl(184, 100%, 22%);
+    height: 60vh;
+    width: 20%;
+
+}
+
+.tercero {
+    background-color: hsl(179, 100%, 13%);
+    height: 60vh;
+    width: 20%;
+    border-radius: 0px 9px 9px 0px;
+    
+
+}
+
+ div h3{ 
+    color: hsl(0, 0%, 95%);
+    margin-top: 15%;
+ }
+
+div button{
+    border-radius: 18px;
+    padding: 0.9em;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+
+}
+div p{
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+.page{
+    margin-top: 20%;
+}
+.first{
+    color:hsl(31, 77%, 52%) ;
+    margin-top: 30%;
+    cursor: pointer;
+    
+}
+.first:hover{
+    background-color: hsl(31, 50%, 44%);
+}
+.second{
+    color:hsl(184, 100%, 22%);
+    margin-top: 30%;
+    cursor: pointer;
+}
+.second:hover{
+    background-color:hsl(184, 80%, 38%); ;
+}
+.third{
+    color:hsl(179, 100%, 13%) ;
+    margin-top: 30%;
+    cursor: pointer;
+}
+.third:hover{
+    background-color: hsl(180, 73%, 6%);
+}
+div{
+    padding:3% 0% 3% 3%;
+}
+@media (max-width:1440px ) {
+
+}
+@media (max-width:375px ) {
+    main{
+    background-color: red;
+    width: 90%;
+    }
+    .Primero {
+        background-color: hsl(31, 77%, 52%);
+        height: 70vh;
+        width: 28%;
+    }
+    .segundo {
+        background-color: hsl(184, 100%, 22%);
+        height: 70vh;
+        width: 28%;
+    }
+    .tercero {
+        background-color: hsl(179, 100%, 13%);
+        height: 70vh;
+        width: 28%;
+    }
+    .third{
+        margin-top: 0%;
+    }
+    .second{
+        margin-top: 45%;
+    }
+    .first{
+        margin-top: 45%;
+    }
+    
+}
+@media (max-width:1024px){
+    main{
+        background-color: red;
+        width: 90%;
+    }
+    .Primero {
+        background-color: hsl(31, 77%, 52%);
+        height: 70vh;
+        width: 20%;
+    }
+    .segundo{
+        background-color: hsl(184, 100%, 22%);
+        height: 70vh;
+        width: 20%;
+    }
+    .tercero{
+        background-color: hsl(179, 100%, 13%);
+        height: 70vh;
+        width: 20%;
+    }
+    .third{
+        margin-top: 0%;
+    }
+    .second{
+        margin-top: 25%;
+    }
+    .first{
+        margin-top: 50%;}
+
+}
